@@ -24,7 +24,7 @@ int main() {
     
     // Verifica se o expoente é válido
     if (exp < 0) {
-        printf("Erro: Expoente deve ser não negativo.\n");
+        printf("Erro: Expoente deve ser nao negativo.\n");
         return 1;
     }
     
