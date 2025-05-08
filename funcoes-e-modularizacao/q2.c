@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 
+// Multiplica a base 'expoente' vezes
 int potencia(int base, int expoente) {
     int resultado = 1;
     
@@ -21,6 +22,7 @@ int main() {
     printf("Digite o expoente: ");
     scanf("%d", &exp);
     
+    // Verifica se o expoente é válido
     if (exp < 0) {
         printf("Erro: Expoente deve ser não negativo.\n");
         return 1;
